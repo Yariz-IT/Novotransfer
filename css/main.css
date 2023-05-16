@@ -1,0 +1,32 @@
+@import './fonts.css';
+@import './header.css';
+@import './section-cars.css';
+@import './background.css';
+@import './contact-info.css';
+@import './footer.css';
+@import './variables.css';
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body {
+	font-family: 'Gotham Pro';
+}
+
+.section__cars,
+.footer,
+.section__background,
+.contacts__info,
+.our__mission {
+	margin: auto auto;
+	max-width: 1400px;
+}
+
+.our__mission {
+	background-image: url(/img/svg/cars.svg);
+	background-size: cover;
+	min-height: 50vh;
+}

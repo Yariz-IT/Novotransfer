@@ -1,0 +1,70 @@
+.contacts__info {
+	padding-bottom: 157px;
+	padding-top: 100px;
+	padding-left: var(--paddingLeft);
+}
+
+.contact__info {
+	position: absolute;
+}
+
+.contact__info-two {
+	justify-content: flex-end;
+	display: grid;
+	position: relative;
+	padding-right: 550px;
+	padding-top: 55px;
+}
+
+.contact__info-header {
+	color: var(--purple);
+	font-size: 40px;
+	padding-bottom: 20px;
+}
+
+.contact__paragraph {
+	font-size: var(--fontSize);
+	line-height: 35px;
+	padding-bottom: 15px;
+}
+
+.city,
+.street {
+	font-size: var(--fontSize);
+	color: var(--black);
+	font-weight: 600;
+}
+
+.street {
+	padding-top: 10px;
+}
+
+.support__info {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.phone,
+.mail {
+	font-weight: 600;
+	text-decoration: none;
+	font-size: var(--fontSize);
+	display: grid;
+}
+
+.phone,
+.name__surname {
+	font-size: var(--fontSize);
+	color: var(--black);
+}
+
+.mail {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	color: var(--purple);
+}
+
+.name__surname {
+	font-weight: 600;
+	padding-bottom: 15px;
+}

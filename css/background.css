@@ -1,0 +1,49 @@
+.section__background {
+	background-image: url(/img/png/background.png);
+	padding-bottom: 40px;
+}
+
+.heading__background {
+	color: var(--white);
+	font-size: 50px;
+	line-height: 48px;
+	height: 60px;
+	padding-left: var(--paddingLeft);
+	padding-top: 60px;
+}
+
+.cards {
+	margin-left: 120px;
+	display: grid;
+	grid-template-columns: 257px 257px 257px 80px;
+	gap: 30px;
+	margin-top: 41px;
+	font-weight: 600;
+}
+
+.support {
+	padding-right: 20px;
+}
+
+.photo {
+	border: 1px solid #9a2e9d;
+	width: 255px;
+	height: 265px;
+	margin-left: 30px;
+	cursor: pointer;
+	justify-content: center;
+	text-align: center;
+	display: flex;
+}
+
+.paragraph {
+	color: var(--white);
+	font-size: var(--fontSize);
+	padding-top: 200px;
+	line-height: var(--lineHeight);
+}
+
+.img__icons {
+	position: absolute;
+	padding-top: 50px;
+}

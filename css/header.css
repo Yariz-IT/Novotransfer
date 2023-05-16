@@ -1,0 +1,46 @@
+.header {
+	background-image: url(/img/svg/main-car.svg);
+	background-size: cover;
+	min-height: 100vh;
+	background-position: center;
+}
+
+.info {
+	padding-left: var(--paddingLeft);
+}
+
+.info__text-one,
+.info__text-three {
+	color: var(--white);
+	font-weight: var(--weightNormal);
+	font-size: var(--fontSize);
+	line-height: 35px;
+	word-break: keep-all;
+}
+
+.info__text-two {
+	color: #e84a0d;
+	width: 442px;
+	height: 35px;
+	font-size: 27px;
+	font-weight: var(--weightBold);
+	padding-top: 20px;
+	padding-left: 64px;
+}
+
+.info__text-three {
+	padding-top: 59px;
+	width: 570px;
+	height: 105px;
+}
+
+.info__text-one {
+	padding-top: 100px;
+	width: 500px;
+	height: 70px;
+}
+
+.img {
+	padding-left: 66px;
+	padding-top: 38px;
+}

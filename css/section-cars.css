@@ -1,0 +1,43 @@
+.section__cars {
+	padding-bottom: 130px;
+}
+
+.car__park {
+	color: var(--purple);
+	font-size: 50px;
+	line-height: 48px;
+	padding-top: 100px;
+}
+
+.info__text-four {
+	color: var(--black);
+	font-size: var(--fontSize);
+	line-height: 35px;
+	width: 665px;
+	height: 70px;
+	padding-top: 30px;
+}
+
+.car__one {
+	justify-content: flex-end;
+	display: flex;
+	padding-right: 184px;
+}
+
+.cars {
+	margin-top: 97px;
+	display: grid;
+	grid-template-columns: 0.5fr 0.5fr 0.5fr;
+}
+
+.diffrents__black-cars {
+	padding-top: 90px;
+}
+
+.heading {
+	color: var(--purple);
+}
+
+.name {
+	padding-top: 30px;
+}
